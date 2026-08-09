@@ -1,0 +1,527 @@
+[
+  {
+    "name": "Altar",
+    "text": "Trash a card from your hand. Gain a card costing up to $5.",
+    "tags": [
+      "trasher",
+      "gainer",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Armory",
+    "text": "Gain a card onto your deck costing up to $4.",
+    "tags": [
+      "gainer",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Artisan",
+    "text": "Gain a card to your hand costing up to $5.Put a card from your hand onto your deck.",
+    "tags": [
+      "gainer",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Bandit",
+    "text": "Gain a Gold. Each other player reveals the top 2 cards of their deck, trashes a revealed Treasure other than Copper, and discards the rest.",
+    "tags": [
+      "gainer",
+      "attack-trash"
+    ]
+  },
+  {
+    "name": "Bazaar",
+    "text": "+1 Card. +2 Actions. +$1",
+    "tags": [
+      "village"
+    ]
+  },
+  {
+    "name": "Bureaucrat",
+    "text": "Gain a Silver onto your deck. Each other player reveals a Victory card from their hand and puts it onto their deck (or reveals a hand with no Victory cards).",
+    "tags": [
+      "gainer",
+      "topdeck-place",
+      "attack-topdeck"
+    ]
+  },
+  {
+    "name": "Cartographer",
+    "text": "+1 Card. +1 Action. Look at the top 4 cards of your deck. Discard any number of them, then put the rest back in any order.",
+    "tags": [
+      "cantrip",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Cellar",
+    "text": "+1 Action. Discard any number of cards, then draw that many.",
+    "tags": [
+      "variable-draw",
+      "cycler"
+    ]
+  },
+  {
+    "name": "Chapel",
+    "text": "Trash up to 4 cards from your hand.",
+    "tags": [
+      "trasher",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Conspirator",
+    "text": "+$2. If you've played 3 or more Actions this turn (counting this), +1 Card and +1 Action.",
+    "tags": [
+      "payload"
+    ]
+  },
+  {
+    "name": "Council Room",
+    "text": "+4 Cards. +1 Buy. Each other player draws a card.",
+    "tags": [
+      "terminal-draw"
+    ]
+  },
+  {
+    "name": "Courtyard",
+    "text": "+3 Cards. Put a card from your hand onto your deck.",
+    "tags": [
+      "terminal-draw",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Cutpurse",
+    "text": "+$2. Each other player discards a Copper (or reveals a hand with no Copper).",
+    "tags": [
+      "attack-discard", "payload"
+    ]
+  },
+  {
+    "name": "Dismantle",
+    "text": "Trash a card from your hand. If it costs $1 or more, gain a cheaper card and a Gold.",
+    "tags": [
+      "trasher",
+      "gainer",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Expand",
+    "text": "Trash a card from your hand. Gain a card costing up to $3 more than it.",
+    "tags": [
+      "trasher",
+      "gainer",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Festival",
+    "text": "+2 Actions. +1 Buy. +$2.",
+    "tags": [
+      "village", "payload"
+    ]
+  },
+  {
+    "name": "Gardens",
+    "text": "Worth +1VP per 10 cards you have (round down).",
+    "tags": [
+      "alt-vp"
+    ]
+  },
+  {
+    "name": "Hamlet",
+    "text": "+1 Card. +1 Action. You may discard a card for +1 Action. You may discard a card for +1 Buy.",
+    "tags": [
+      "cantrip",
+      "choice",
+      "discard-cost"
+    ]
+  },
+  {
+    "name": "Harbinger",
+    "text": "+1 Card. +1 Action. Look through your discard pile. You may put a card from it onto your deck.",
+    "tags": [
+      "cantrip",
+      "topdeck-place",
+      "discard-interaction"
+    ]
+  },
+  {
+    "name": "Hunting Party",
+    "text": "+1 Card. +1 Action. Reveal your hand. Reveal cards from your deck until you reveal one that isn't a copy of one in your hand. Put it into your hand and discard the rest.",
+    "tags": [
+      "cantrip",
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Jester",
+    "text": "+$2. Each other player discards the top card of their deck. If it's a Victory card they gain a Curse; otherwise they gain a copy of the discarded card or you do, your choice.",
+    "tags": [
+      "curser",
+      "gainer",
+      "payload"
+    ]
+  },
+  {
+    "name": "Junk Dealer",
+    "text": "+1 Card. +1 Action +$1.Trash a card from your hand.",
+    "tags": [
+      "trasher",
+      "cantrip",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Laboratory",
+    "text": "+2 Cards. +1 Action.",
+    "tags": []
+  },
+  {
+    "name": "Library",
+    "text": "Draw until you have 7 cards in hand, skipping any Action cards you choose to; set those aside, discarding them afterwards.",
+    "tags": [
+      "variable-draw",
+      "choice"
+    ]
+  },
+  {
+    "name": "Lookout",
+    "text": "+1 Action. Look at the top 3 cards of your deck. Trash one of them. Discard one of them. Put the other one back on top of your deck.",
+    "tags": [
+      "trasher",
+      "topdeck-place",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Market",
+    "text": "+1 Card. +1 Action. +1 Buy. +$1.",
+    "tags": [
+      "cantrip"
+    ]
+  },
+  {
+    "name": "Masquerade",
+    "text": "+2 Cards. Each player with any cards in hand passes one to the next such player to their left, at once. Then you may trash a card from your hand.",
+    "tags": [
+      "trasher",
+      "terminal-draw",
+      "curse-cleaner",
+      "gainer"
+    ]
+  },
+  {
+    "name": "Menagerie",
+    "text": "+1 Action. Reveal your hand. If the revealed cards all have different names, +3 Cards. Otherwise, +1 Card.",
+    "tags": [
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Merchant",
+    "text": "+1 Card. +1 Action. The first time you play a Silver this turn, +$1.",
+    "tags": [
+      "cantrip"
+    ]
+  },
+  {
+    "name": "Militia",
+    "text": "+$2. Each other player discards down to 3 cards in hand.",
+    "tags": [
+      "attack-discard", "payload"
+    ]
+  },
+  {
+    "name": "Mine",
+    "text": "You may trash a Treasure card from your hand. Gain a Treasure card to your hand costing up to $3 more than it.",
+    "tags": [
+      "trasher",
+      "gainer"
+    ]
+  },
+  {
+    "name": "Minion",
+    "text": "+1 Action. Choose one: +$2; or discard your hand, +4 Cards, and each other player with at least 5 cards in hand discards their hand and draws 4 cards.",
+    "tags": [
+      "choice",
+      "payload"
+    ]
+  },
+  {
+    "name": "Moat",
+    "text": "+2 Cards. When another player plays an Attack card, you may first reveal this from your hand, to be unaffected by it.",
+    "tags": [
+      "terminal-draw"
+    ]
+  },
+  {
+    "name": "Moneylender",
+    "text": "You may trash a Copper from your hand for +$3.",
+    "tags": [
+      "trasher", "payload"
+    ]
+  },
+  {
+    "name": "Mountain Village",
+    "text": "+2 Actions. Look through your discard pile and put a card from it into your hand; if you can't, +1 Card.",
+    "tags": [
+      "discard-interaction",
+      "village"
+    ]
+  },
+  {
+    "name": "Oasis",
+    "text": "+1 Card. +1 Action. +$1. Discard a card.",
+    "tags": [
+      "cantrip",
+      "discard-cost"
+    ]
+  },
+  {
+    "name": "Old Witch",
+    "text": "+3 Cards. Each other player gains a Curse and may trash a Curse from their hand.",
+    "tags": [
+      "curser",
+      "terminal-draw"
+    ]
+  },
+  {
+    "name": "Patrol",
+    "text": "+3 Cards. Reveal the top 4 cards of your deck. Put the Victory cards and Curses into your hand. Put the rest back in any order.",
+    "tags": [
+      "terminal-draw",
+      "topdeck-place",
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Poacher",
+    "text": "+1 Card. +1 Action. +$1. Discard a card per empty Supply pile.",
+    "tags": [
+      "cantrip",
+      "discard-cost"
+    ]
+  },
+  {
+    "name": "Remake",
+    "text": "Do this twice: Trash a card from your hand, then gain a card costing exactly $1 more than it.",
+    "tags": [
+      "trasher",
+      "gainer",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Remodel",
+    "text": "Trash a card from your hand. Gain a card costing up to $2 more than it.",
+    "tags": [
+      "trasher",
+      "gainer",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Replace",
+    "text": "Trash a card from your hand. Gain a card costing up to $2 more than it. If the gained card is an Action or Treasure, put it onto your deck; if it's a Victory card, each other player gains a Curse.",
+    "tags": [
+      "trasher",
+      "gainer",
+      "curser",
+      "topdeck-place",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Sage",
+    "text": "+1 Action. Reveal cards from the top of your deck until you reveal one costing $3 or more. Put that card into your hand and discard the rest.",
+    "tags": []
+  },
+  {
+    "name": "Salvager",
+    "text": "+1 Buy. Trash a card from your hand. +$1 it costs.",
+    "tags": [
+      "trasher",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Scavenger",
+    "text": "+$2. You may put your deck into your discard pile. Look through your discard pile and put one card from it onto your deck.",
+    "tags": [
+      "topdeck-place",
+      "discard-interaction",
+      "choice",
+      "payload"
+    ]
+  },
+  {
+    "name": "Scholar",
+    "text": "Discard your hand. +7 Cards.",
+    "tags": [
+      "terminal-draw",
+      "discard-cost"
+    ]
+  },
+  {
+    "name": "Seer",
+    "text": "+1 Card. +1 Action Reveal the top 3 cards of your deck. Put the ones costing from $4 into your hand. Put the rest back in any order.",
+    "tags": [
+      "topdeck-place",
+      "cantrip"
+    ]
+  },
+  {
+    "name": "Sentry",
+    "text": "+1 Card. +1 Action. Look at the top 2 cards of your deck. Trash and/or discard any number of them. Put the rest back on top in any order.",
+    "tags": [
+      "trasher",
+      "topdeck-place",
+      "cantrip",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Shanty Town",
+    "text": "+2 Actions. Reveal your hand. If you have no Action cards in hand, +2 Cards.",
+    "tags": [
+      "village",
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Smithy",
+    "text": "+3 Cards",
+    "tags": [
+      "terminal-draw"
+    ]
+  },
+  {
+    "name": "Soothsayer",
+    "text": "Gain a Gold. Each other player gains a Curse, and if they did, draws a card.",
+    "tags": [
+      "gainer",
+      "curser"
+    ]
+  },
+  {
+    "name": "Stables",
+    "text": "You may discard a Treasure, for +3 Cards and +1 Action.",
+    "tags": [
+      "choice",
+      "discard-cost"
+    ]
+  },
+  {
+    "name": "Storeroom",
+    "text": "+1 Buy. Discard any number of cards, then draw that many. Then discard any number of cards for +$1 each.",
+    "tags": [
+      "variable-draw",
+      "discard-cost",
+      "cycler"
+    ]
+  },
+  {
+    "name": "Swindler",
+    "text": "+$2. Each other player trashes the top card of their deck and gains a card with the same cost that you choose.",
+    "tags": [
+      "attack-trash",
+      "curser",
+      "payload"
+    ]
+  },
+  {
+    "name": "Throne Room",
+    "text": "You may play an Action card from your hand twice.",
+    "tags": [
+      "doubler"
+    ]
+  },
+  {
+    "name": "Trading Post",
+    "text": "Trash 2 cards from your hand. If you did, gain a Silver to your hand.",
+    "tags": [
+      "trasher",
+      "gainer",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Tragic Hero",
+    "text": "+3 Cards. +1 Buy If you have 8 or more cards in hand (after drawing), trash this and gain a Treasure.",
+    "tags": [
+      "terminal-draw",
+      "gainer"
+    ]
+  },
+  {
+    "name": "Treasure Map",
+    "text": "Trash this and a Treasure Map from your hand. If you trashed two Treasure Maps, gain 4 Golds onto your deck.",
+    "tags": [
+      "gainer",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Upgrade",
+    "text": "+1 Card. +1 Action Trash a card from your hand. Gain a card costing exactly $1 more than it.",
+    "tags": [
+      "cantrip",
+      "trasher",
+      "gainer",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Vassal",
+    "text": "+$2. Discard the top card of your deck. If it's an Action card, you may play it.",
+    "tags": [
+      "topdeck-consumer",
+      "choice",
+      "payload"
+    ]
+  },
+  {
+    "name": "Village",
+    "text": "+1 Card. +2 Actions.",
+    "tags": [
+      "village"
+    ]
+  },
+  {
+    "name": "Wandering Minstrel",
+    "text": "+1 Card. +2 Actions Reveal the top 3 cards of your deck. Put the Action cards back in any order and discard the rest.",
+    "tags": [
+      "village",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Warehouse",
+    "text": "+3 Cards. +1 Action. Discard 3 cards.",
+    "tags": [
+      "choice",
+      "cycler"
+    ]
+  },
+  {
+    "name": "Witch",
+    "text": "+2 Cards. Each other player gains a Curse.",
+    "tags": [
+      "curser",
+      "terminal-draw"
+    ]
+  },
+  {
+    "name": "Workshop",
+    "text": "Gain a card costing up to $4.",
+    "tags": [
+      "gainer"
+    ]
+  }
+]

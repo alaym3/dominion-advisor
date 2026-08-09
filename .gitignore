@@ -1,0 +1,24 @@
+CLAUDE.md*
+.claude/*
+PROJECT_NOTES.MD
+
+# Proprietary Dominion Online client bundle — used locally to extract
+# CardPoolLevels, never redistribute (see "Explicit project decisions" in
+# PROJECT_NOTES.md)
+backend/data/raw/dominion-client.js
+
+# One-time bootstrap scripts/data, already baked into cards_flat.json /
+# card_tags.json — not needed to fork, edit tags, and rebuild cards.json
+backend/scripts/extract_card_pool.py
+backend/scripts/flatten_card_pool.py
+backend/scripts/migrate_topdeck_tags.py
+backend/data/raw/card_pool_levels.json
+backend/data/raw/card_pool_extracted.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# OS
+.DS_Store

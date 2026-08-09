@@ -1,0 +1,9894 @@
+[
+  {
+    "name": "Artisan",
+    "expansion": "Base",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Bandit",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Bureaucrat",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Cellar",
+    "expansion": "Base",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Chapel",
+    "expansion": "Base",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Council Room",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Festival",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Gardens",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Harbinger",
+    "expansion": "Base",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Laboratory",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Library",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Market",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Merchant",
+    "expansion": "Base",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Militia",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Mine",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Moat",
+    "expansion": "Base",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Moneylender",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Poacher",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Remodel",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Sentry",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Smithy",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Throne Room",
+    "expansion": "Base",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Vassal",
+    "expansion": "Base",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Village",
+    "expansion": "Base",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Witch",
+    "expansion": "Base",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Workshop",
+    "expansion": "Base",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 1
+  },
+  {
+    "name": "Altar",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Armory",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Barbarian",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Bazaar",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Carnival",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Cartographer",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Conspirator",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Courier",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Courtyard",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Cutpurse",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Dismantle",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Expand",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Fortune Hunter",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Hamlet",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Hunter",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Hunting Party",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Jester",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Junk Dealer",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Lookout",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Magnate",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Marquis",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Masquerade",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Menagerie",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Minion",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Mountain Village",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Oasis",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Old Witch",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Patrol",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Pilgrim",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Remake",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Replace",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Sage",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Salvager",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Scavenger",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Scholar",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Sea Chart",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Seer",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Sentinel",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Shanty Town",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Soothsayer",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Stables",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Storeroom",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Swindler",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Trading Post",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Tragic Hero",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Treasure Map",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Upgrade",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Wandering Minstrel",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Warehouse",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Wheelwright",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Witch's Hut",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Workers Village",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 2
+  },
+  {
+    "name": "Advisor",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Amulet",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Anvil",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Archive",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Aristocrat",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Astrolabe",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Bank",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Barge",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Baron",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Cabin Boy",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Capital City",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Caravan",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Carpenter",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Charm",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Conclave",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Counterfeit",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Crew",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Crucible",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Crystal Ball",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Duke",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Dungeon",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Enlarge",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Envoy",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Fairgrounds",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Farm",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Fishing Village",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Gear",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Grotto",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Haven",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Hunting Lodge",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Innkeeper",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Journeyman",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "King's Cache",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Kings Court",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Longship",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Magpie",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Mastermind",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Merchant Ship",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Mill",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Mining Village",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Modify",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Mystic",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Nobles",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Pawn",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Pendant",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Research",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Rice",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Rope",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Royal Galley",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Sea Witch",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Secret Passage",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Shop",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Silver Mine",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Smugglers",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Snake Witch",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Specialist",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Spice Merchant",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Steward",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Tactician",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Tide Pools",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Torturer",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Town",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Treasure Trove",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "War Chest",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Wharf",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Wishing Well",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 3
+  },
+  {
+    "name": "Artificer",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Berserker",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Bishop",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Border Village",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Buried Treasure",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Catacombs",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Chariot Race",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Church",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Experiment",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Farmers Market",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Gathering"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Farmhands",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Farmland",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Feodum",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Figurine",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "First Mate",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Fortress",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Forum",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Gondola",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Groundskeeper",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Hideout",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Hunting Grounds",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Inn",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Investment",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Ironmonger",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Ironworks",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Kiln",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Lost City",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Marchland",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Margrave",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Messenger",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Mint",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Monument",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Nomads",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Outpost",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Port",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Rabble",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Rats",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Rice Broker",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Sacrifice",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Squire",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Swamp Shacks",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Swap",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Temple",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Gathering"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Tools",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Wild Hunt",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Gathering"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 4
+  },
+  {
+    "name": "Acting Troupe",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Baker",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Beggar",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Black Cat",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Blockade",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Bounty Hunter",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Butcher",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Camel Train",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Candlestick Maker",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Capital",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Caravan Guard",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Cardinal",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Cargo Ship",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Charlatan",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "City",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Clerk",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Collection",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Corsair",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Courtier",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Coven",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Craftsman",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Crossroads",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Diplomat",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Displace",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Falconer",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Fools Gold",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Frigate",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Galleria",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Gatekeeper",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Goatherd",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Gold Mine",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Guard Dog",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Haggler",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Hireling",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Hoard",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Imperial Envoy",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Inventor",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Lackeys",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Legionary",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Litter",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Market Square",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Maroon",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Monkey",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Patron",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Pirate",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Plaza",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Priest",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Quartermaster",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Raze",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Recruiter",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Root Cellar",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Samurai",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Sanctuary",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Sculptor",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Sheepdog",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Silk Merchant",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Skirmisher",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Snowy Village",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Spices",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Stockpile",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Stowaway",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Tiara",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Villain",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Watchtower",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 5
+  },
+  {
+    "name": "Architects Guild",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Band of Nomads",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Bauble",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Bridge",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Broker",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Cauldron",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Cave Dwellers",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Circle of Witches",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Coastal Haven",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Contract",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Duration",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Count",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Crafters Guild",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Desert Guides",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Develop",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Emissary",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Faithful Hound",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Family of Inventors",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Fellowship of Scribes",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Forager",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Forest Dwellers",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Forge",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Gang of Pickpockets",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Graverobber",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Guildmaster",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Harbor Village",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Haunted Woods",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Herbalist",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Highway",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Importer",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Improve",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Island",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Island Folk",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Jack Of All Trades",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "League of Bankers",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "League of Shopkeepers",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Lighthouse",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Lurker",
+    "expansion": "Intrigue",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Market Towns",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Merchant Camp",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Merchant Guild",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Mining Road",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Mountain Folk",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Native Village",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Order of Astrologers",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Order of Masons",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Peaceful Cult",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Plateau Shepherds",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Poor House",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 1,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Procession",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Quarry",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Rogue",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Scepter",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Command"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Scheme",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Souk",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Swamp Hag",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Sycophant",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Trail",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Trappers Lodge",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Treasury",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Trickster",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Tunnel",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Underling",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Liaison"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Vault",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Village Green",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Walled Village",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Weaver",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Woodworkers Guild",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 6
+  },
+  {
+    "name": "Abundance",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Advance",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Alley",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Shadow"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Alliance",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 10,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Alms",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Amass",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Annex",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 8,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Artist",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 8,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Asceticism",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Avoid",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Ball",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Banish",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Banquet",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Bonfire",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Borrow",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Bridge Troll",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Bury",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 1,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Cage",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "City Quarter",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 8,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Coin Of The Realm",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Reserve"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Commerce",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Conquest",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Credit",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Delay",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Deliver",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Delve",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Desperation",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Distant Lands",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reserve",
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Dominate",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 14,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Duplicate",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reserve"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Enclave",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 8,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Engineer",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 4,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Enhance",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Expedition",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Ferry",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Fishmonger",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Shadow"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Flagship",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Command"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Foresight",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Gamble",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Gather",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Giant",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Guide",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reserve"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Highwayman",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Journey",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Kintsugi",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Landing Party",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Lost Arts",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Maelstrom",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Mapmaker",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "March",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Mirror",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Miser",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Mission",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Ninja",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Shadow"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Pathfinding",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 8,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Pilgrimage",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Plan",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Populate",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 10,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Practice",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Prepare",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Pursue",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Quest",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Raid",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Ranger",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Ratcatcher",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reserve"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Reap",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Receive Tribute",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Relic",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Ritual",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Ronin",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Shadow"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Royal Blacksmith",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 8,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Royal Carriage",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reserve"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Salt The Earth",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Save",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 1,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Scouting Party",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Scrounge",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Sea Trade",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Seaway",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Secluded Shrine",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Seize The Day",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Summon",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Tanuki",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Shadow"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Toil",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Trade",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Training",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Transmogrify",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reserve"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Transport",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Travelling Fair",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Triumph",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 5,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Wedding",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 3,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Windfall",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Wine Merchant",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reserve"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 7
+  },
+  {
+    "name": "Academy",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Aqueduct",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Arena",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Bandit Fort",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Bargain",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Barracks",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Basilica",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Baths",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Battlefield",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Biding Time",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Bureaucracy",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Canal",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Cheap",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Citadel",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 8,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "City Gate",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "City-state",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Ally"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Cobbler",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Colonnade",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Crop Rotation",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Crypt",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Cursed",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Cutthroat",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Defiled Shrine",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Demand",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Den Of Sin",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Ducat",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Exploration",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Fair",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Fated",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Fawning",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Fleet",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Flourishing Trade",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Foray",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Fountain",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Friendly",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Ghost Town",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Good Harvest",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Great Leader",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Groom",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Growth",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Guardian",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Guildhall",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Hasty",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Hostelry",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Inherited",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Innovation",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Inspiring",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Invasion",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 10,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Jewelled Egg",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Keep",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Kind Emperor",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Kitsune",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Omen"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Labyrinth",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Livery",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Looting",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Monastery",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Mountain Shrine",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 5,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Omen"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Museum",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Nearby",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Night Watchman",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Obelisk",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Orchard",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Paddock",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Pageant",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Palace",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Panic",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Patient",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Peril",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Piazza",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Pickaxe",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Pious",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Poet",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Omen"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Progress",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Prosper",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 10,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Raider",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Rapid Expansion",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Reckless",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Rich",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Ride",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "River Shrine",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Omen"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Road Network",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Rush",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Rustic Village",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Omen"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Sack of Loot",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Sailor",
+    "expansion": "Seaside",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Scrap",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Search",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Sewers",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Shy",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Sickness",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Silos",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Sinister Plot",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Sleigh",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Stampede",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Star Chart",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Supplies",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Tea House",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Omen"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Tireless",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Trait"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Tomb",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Tower",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Triumphal Arch",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Vagrant",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Wall",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Wealthy Village",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Wolf Den",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 8
+  },
+  {
+    "name": "Approaching Army",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Augur Pile",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Augur",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Bandit Camp",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Bard",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Blessed Village",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Border Guard",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Castles",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory",
+      "Castle",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Catapult",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Cemetery",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Clash Pile",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Clash",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Cultist",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Looter"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Cursed Village",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Doom"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Death Cart",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Looter"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Devils Workshop",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Encampment",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Exorcist",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Ferryman",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Flag Bearer",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Footpad",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Fort Pile",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fort",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Hermit",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Idol",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure",
+      "Attack",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Knights",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Knight",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Leprechaun",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Doom"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Marauder",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Looter"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Odyssey Pile",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Odyssey",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Page",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Traveller"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Patrician",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Peasant",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Traveller"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Pillage",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Pixie",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Pooka",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Sacred Grove",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Sauna",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Secret Cave",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Settlers",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Shaman",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Shepherd",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Skulk",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Doom"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Swashbuckler",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Taskmaster",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Tormentor",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack",
+      "Doom"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Townsfolk Pile",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Townsfolk",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Tracker",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Trader",
+    "expansion": "Hinterlands",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Reaction"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Treasurer",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Urchin",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Werewolf",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Night",
+      "Attack",
+      "Doom"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Young Witch",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 9
+  },
+  {
+    "name": "Alchemist",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 3,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Animal Fair",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Apothecary",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 2,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Apprentice",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Band Of Misfits",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Command"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Black Market",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Capitalism",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Captain",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Command"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Cathedral",
+    "expansion": "Renaissance",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Project"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Cavalry",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Change",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Changeling",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Continue",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 8,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Crown",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Daimyo",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 6,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Command"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Destrier",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Divine Wind",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Donate",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 8,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Druid",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Enchantress",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Enlightenment",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Familiar",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 3,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Farrier",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Fisherman",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Fool",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Fate"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Gladiator",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Golem",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 4,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Governor",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Grand Market",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Harsh Winter",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Prophecy"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Herald",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Horn Of Plenty",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Infirmary",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Inheritance",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 7,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Invest",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Joust",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Launch",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Mountain Pass",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Landmark"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Necromancer",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Overlord",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 8,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Command"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Peddler",
+    "expansion": "Prosperity",
+    "cost": {
+      "coin": 8,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Philosophers Stone",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 3,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Treasure"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Possession",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 6,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Prince",
+    "expansion": "Promos",
+    "cost": {
+      "coin": 8,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Command"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Rebuild",
+    "expansion": "Dark Ages",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Riverboat",
+    "expansion": "Rising Sun",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Scrying Pool",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 2,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Siren",
+    "expansion": "Plunder",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Duration",
+      "Attack"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Stonemason",
+    "expansion": "Cornucopia & Guilds",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Storyteller",
+    "expansion": "Adventures",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Tax",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 2,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Event"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Transmute",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 0,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "University",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 2,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Vampire",
+    "expansion": "Nocturne",
+    "cost": {
+      "coin": 5,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Night",
+      "Attack",
+      "Doom"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Villa",
+    "expansion": "Empires",
+    "cost": {
+      "coin": 4,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Vineyard",
+    "expansion": "Alchemy",
+    "cost": {
+      "coin": 0,
+      "potion": 1,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Victory"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Butterfly",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Camel",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Chameleon",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Frog",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Goat",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Horse",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Mole",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Monkey",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Mouse",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Mule",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Otter",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Owl",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Ox",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Pig",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Rat",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Seal",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Sheep",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Squirrel",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Turtle",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Way Of The Worm",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 0,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Way"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Wayfarer",
+    "expansion": "Menagerie",
+    "cost": {
+      "coin": 6,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  },
+  {
+    "name": "Wizard Pile",
+    "expansion": "Allies",
+    "cost": {
+      "coin": 3,
+      "potion": 0,
+      "debt": 0,
+      "isSpecial": false
+    },
+    "types": [
+      "Action",
+      "Wizard",
+      "Randomizer"
+    ],
+    "isKingdomPile": true,
+    "poolLevel": 10
+  }
+]

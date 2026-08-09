@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Barbarian",
+    "text": "+$2. Opponents trash top card of deck. if it costs 3+, they choose a cheaper card with same type. Else + curse.",
+    "plusCards": 0,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 2,
+    "isAttack": true,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "attack-trash",
+      "curser",
+      "payload"
+    ]
+  },
+  {
+    "name": "Carnival",
+    "text": "See top 4 cards of deck. Put 1 of each unique cards in hand, discard rest.",
+    "plusCards": 2,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "terminal-draw",
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Courier",
+    "text": "+$1. Discard top card of deck. Look through discard - can play 1 action or treasure.",
+    "plusCards": 0,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 1,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "choice",
+      "discard-interaction"
+    ]
+  },
+  {
+    "name": "Fortune Hunter",
+    "text": "+$2. Look at top 3 cards of deck - you can play 1 treasure, then rearrange remaining.",
+    "plusCards": 0,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 2,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "choice",
+      "payload",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Hunter",
+    "text": "+1Action. Reveal top 3 cards of deck. Put 1 action, treasure, and victory in your hand. discard rest.",
+    "plusCards": 2,
+    "plusActions": 1,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "choice",
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Magnate",
+    "text": "Reveal hand. +1 card per treasure in hand.",
+    "plusCards": 2,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "terminal-draw",
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Marquis",
+    "text": "+1Buy. +1card per card in hand. Discard down to 10 in hand.",
+    "plusCards": 3,
+    "plusActions": 0,
+    "plusBuys": 1,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "terminal-draw",
+      "variable-draw"
+    ]
+  },
+  {
+    "name": "Pilgrim",
+    "text": "+4 cards, put 1 card from hand onto deck.",
+    "plusCards": 4,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "terminal-draw",
+      "topdeck-place"
+    ]
+  },
+  {
+    "name": "Sea Chart",
+    "text": "+1Card, +1Action. Reveal top card of deck - put in hand if you have a copy of it in play.",
+    "plusCards": 1,
+    "plusActions": 1,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "topdeck-view",
+      "cantrip"
+    ]
+  },
+  {
+    "name": "Sentinel",
+    "text": "Go through top 5 cards of deck. Trash up to 2, then can rearrange.",
+    "plusCards": 0,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": true,
+    "gainsCards": false,
+    "tags": [
+      "trasher",
+      "topdeck-place",
+      "curse-cleaner"
+    ]
+  },
+  {
+    "name": "Witch's Hut",
+    "text": "+4 cards. Discard 2 cards. If both are actions, other players get +1 curse.",
+    "plusCards": 4,
+    "plusActions": 0,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": true,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "discard-cost",
+      "curser"
+    ]
+  },
+  {
+    "name": "Wheelwright",
+    "text": "+1Card, +1Action. You can discard a card to gain an action card with equal or lower cost.",
+    "plusCards": 1,
+    "plusActions": 1,
+    "plusBuys": 0,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": true,
+    "tags": [
+      "choice",
+      "cantrip",
+      "gainer"
+    ]
+  },
+  {
+    "name": "Workers Village",
+    "text": "+1Card, +2Actions, +1Buy.",
+    "plusCards": 1,
+    "plusActions": 2,
+    "plusBuys": 1,
+    "plusCoins": 0,
+    "isAttack": false,
+    "isReaction": false,
+    "trashesOwn": false,
+    "gainsCards": false,
+    "tags": [
+      "village"
+    ]
+  }
+]
