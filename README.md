@@ -22,6 +22,20 @@ To view logs:
 docker compose logs -f app
 ```
 
+## Frontend
+
+A minimal UI at http://localhost:5173, calling the backend directly (CORS
+enabled for this origin — see `backend/app/main.py`). Three buttons:
+
+- **Call /health** — shows the raw health-check response
+- **Call /kingdom/random** — draws 10 cards, shows their names
+- **Call /kingdom/random/analyzed** — draws 10 cards and shows both the
+  cards and the rule engine's observations
+
+Not built yet: a pool-level selector (Level 1 / Level 2 / both — currently
+always hits the combined Level 1-2 endpoint), and a manual 10-card picker
+for `POST /kingdom/analyze`.
+
 ## Rebuilding the card data
 
 If you've edited any of `manual_cards.json`, `card_tags.json`, or the raw
