@@ -1,8 +1,17 @@
 import json
 import re
+import sys
 from pathlib import Path
+from typing import List
 
-DATA_DIR = Path(__file__).parent.parent / "data"
+BACKEND_DIR = Path(__file__).parent.parent
+sys.path.insert(0, str(BACKEND_DIR))
+
+from pydantic import ValidationError
+from app.models import Card
+from app.card_store import MIN_SUPPORTED_POOL_LEVEL, MAX_SUPPORTED_POOL_LEVEL
+
+DATA_DIR = BACKEND_DIR / "data"
 
 FLAT_CARDS_PATH = DATA_DIR / "cards_flat.json"
 KLONGMUIR_PATH = DATA_DIR / "raw" / "dominion-cards.json"
@@ -64,6 +73,40 @@ def build_final_cards(base_cards, klongmuir_raw, manual_raw):
     return final, still_missing
 
 
+def _is_enriched_scope(card: dict) -> bool:
+    return bool(card.get("isKingdomPile")) and MIN_SUPPORTED_POOL_LEVEL <= card.get("poolLevel", 0) <= MAX_SUPPORTED_POOL_LEVEL
+
+
+def validate_cards(cards: List[dict], still_missing: List[str]) -> List[str]:
+    """Returns a list of violation messages; empty means the build is valid.
+    Only Level 1-2 kingdom cards are checked for tags/enrichment — that's the
+    only pool actually enriched so far, so flagging the rest would be noise."""
+    violations = []
+    still_missing_set = set(still_missing)
+
+    for card in cards:
+        name = card.get("name", "<unknown>")
+
+        try:
+            Card(**card)
+        except ValidationError as e:
+            violations.append(f"{name}: failed schema validation — {e}")
+            continue
+
+        if not _is_enriched_scope(card):
+            continue
+
+        if name in still_missing_set:
+            violations.append(
+                f"{name}: Level {card['poolLevel']} kingdom card has no enrichment "
+                f"data (not found in KLongmuir or manual_cards.json)"
+            )
+        if not card.get("tags"):
+            violations.append(f"{name}: Level {card['poolLevel']} kingdom card has no tags")
+
+    return violations
+
+
 def main():
     with open(FLAT_CARDS_PATH) as f:
         base_cards = json.load(f)
@@ -80,6 +123,14 @@ def main():
         with open(tags_path) as f:
             tags_raw = json.load(f)
         final_cards = apply_tag_overlay(final_cards, tags_raw)
+
+    violations = validate_cards(final_cards, still_missing)
+    if violations:
+        print(f"Build FAILED — {len(violations)} validation violation(s), {OUTPUT_PATH} NOT written:")
+        for v in violations:
+            print(f"  {v}")
+        sys.exit(1)
+
     with open(OUTPUT_PATH, "w") as f:
         json.dump(final_cards, f, indent=2)
 

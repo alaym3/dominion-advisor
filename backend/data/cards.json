@@ -276,7 +276,9 @@
     "isReaction": false,
     "trashesOwn": false,
     "gainsCards": false,
-    "tags": []
+    "tags": [
+      "cantrip"
+    ]
   },
   {
     "name": "Library",
@@ -1636,7 +1638,9 @@
     "isReaction": false,
     "trashesOwn": false,
     "gainsCards": false,
-    "tags": []
+    "tags": [
+      "cantrip"
+    ]
   },
   {
     "name": "Salvager",

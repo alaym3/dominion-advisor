@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 from typing import List
 from typing import Optional
 
@@ -5,20 +6,39 @@ from .models import Card, Observation
 from .rule_helpers import Breakpoint, TagThresholdRule, tag_threshold_observation
 
 
-def analyze_village_density(cards: List[Card]) -> Observation:
+@dataclass(frozen=True)
+class KingdomFacts:
+    """Cross-cutting facts more than one rule needs, computed once per
+    analyze_kingdom() call instead of re-derived independently by each rule
+    that needs them."""
+    villages: List[Card]
+    terminal_draws: List[Card]
+    engine_favored: bool
+    cheap_village: bool
+
+
+def compute_kingdom_facts(cards: List[Card]) -> KingdomFacts:
     villages = [c for c in cards if "village" in c.tags]
     terminal_draws = [c for c in cards if "terminal-draw" in c.tags]
+    return KingdomFacts(
+        villages=villages,
+        terminal_draws=terminal_draws,
+        engine_favored=len(villages) > 0 and len(villages) >= len(terminal_draws),
+        cheap_village=any(v.cost.coin <= 3 for v in villages) if villages else False,
+    )
 
-    village_count = len(villages)
-    terminal_count = len(terminal_draws)
 
-    village_names = ", ".join(c.name for c in villages) or "none"
-    terminal_names = ", ".join(c.name for c in terminal_draws) or "none"
+def analyze_village_density(facts: KingdomFacts) -> Observation:
+    village_count = len(facts.villages)
+    terminal_count = len(facts.terminal_draws)
+
+    village_names = ", ".join(c.name for c in facts.villages) or "none"
+    terminal_names = ", ".join(c.name for c in facts.terminal_draws) or "none"
 
     if village_count == 0 and terminal_count == 0:
         finding = "No village or terminal-draw effects present"
         detail = "This kingdom has neither dedicated action-support nor big draw cards. Engines will be hard to build here."
-    elif village_count >= terminal_count:
+    elif facts.engine_favored:
         finding = f"Good action support ({village_count} village(s) vs {terminal_count} terminal-draw(s))"
         detail = f"Villages: {village_names}. Terminal-draw cards: {terminal_names}. You likely have enough actions to chain terminal-draw cards without stalling."
     else:
@@ -294,17 +314,15 @@ def analyze_doubler_combo(cards: List[Card]) -> Optional[Observation]:
 
     return Observation(category="combo", finding=finding, detail=detail)
 
-def analyze_engine_speed(cards: List[Card]) -> Optional[Observation]:
-    villages = [c for c in cards if "village" in c.tags]
-
-    if not villages:
+def analyze_engine_speed(facts: KingdomFacts) -> Optional[Observation]:
+    if not facts.villages:
         return None  # already covered by analyze_village_density's "no villages" case
 
-    cheapest_village = min(v.cost.coin for v in villages)
-    cheapest_village_card = min(villages, key=lambda v: v.cost.coin)
-    village_names = ", ".join(v.name for v in villages)
+    cheapest_village = min(v.cost.coin for v in facts.villages)
+    cheapest_village_card = min(facts.villages, key=lambda v: v.cost.coin)
+    village_names = ", ".join(v.name for v in facts.villages)
 
-    if cheapest_village <= 3:
+    if facts.cheap_village:
         finding = f"Cheap village support available ({cheapest_village_card.name} at ${cheapest_village})"
         detail = (
             f"Village support here ({village_names}) includes a copy costing ${cheapest_village} or less. "
@@ -321,14 +339,10 @@ def analyze_engine_speed(cards: List[Card]) -> Optional[Observation]:
 
     return Observation(category="engine", finding=finding, detail=detail)
 
-def analyze_bigmoney_viability(cards: List[Card]) -> Optional[Observation]:
-    villages = [c for c in cards if "village" in c.tags]
-    terminal_draws = [c for c in cards if "terminal-draw" in c.tags]
+def analyze_bigmoney_viability(cards: List[Card], facts: KingdomFacts) -> Optional[Observation]:
     payload_cards = [c for c in cards if "payload" in c.tags]
 
-    engine_favored = len(villages) > 0 and len(villages) >= len(terminal_draws)
-
-    if engine_favored:
+    if facts.engine_favored:
         # Already well-covered by analyze_village_density's positive case — no new info to add.
         return None
 
@@ -360,18 +374,13 @@ def analyze_bigmoney_viability(cards: List[Card]) -> Optional[Observation]:
 
     return Observation(category="strategy", finding=finding, detail=detail)
 
-def analyze_archetype_summary(cards: List[Card]) -> Observation:
-    villages = [c for c in cards if "village" in c.tags]
-    terminal_draws = [c for c in cards if "terminal-draw" in c.tags]
+def analyze_archetype_summary(cards: List[Card], facts: KingdomFacts) -> Observation:
     payload_cards = [c for c in cards if "payload" in c.tags]
     cursers = [c for c in cards if "curser" in c.tags]
     curse_cleaners = [c for c in cards if "curse-cleaner" in c.tags]
     doublers = [c for c in cards if "doubler" in c.tags]
     topdeck_consumers = [c for c in cards if "topdeck-consumer" in c.tags]
     topdeck_placers = [c for c in cards if "topdeck-place" in c.tags]
-
-    engine_favored = len(villages) > 0 and len(villages) >= len(terminal_draws)
-    cheap_village = any(v.cost.coin <= 3 for v in villages) if villages else False
 
     reasoning = []
 
@@ -381,10 +390,10 @@ def analyze_archetype_summary(cards: List[Card]) -> Observation:
             f"{len(cursers)} curse-granting attacks with no way to trash them means falling behind "
             f"on Curses is very costly here."
         )
-    elif engine_favored and cheap_village:
+    elif facts.engine_favored and facts.cheap_village:
         headline = "Engine-favored — build toward multiple actions per turn"
         reasoning.append("Village support is both sufficient and cheap, making an engine a realistic goal.")
-    elif engine_favored:
+    elif facts.engine_favored:
         headline = "Engine possible but slow to assemble"
         reasoning.append("Village support exists but is expensive, so expect a slower ramp-up.")
     elif payload_cards:
@@ -415,21 +424,25 @@ def analyze_archetype_summary(cards: List[Card]) -> Observation:
 
 def analyze_kingdom(cards: List[Card]) -> List[Observation]:
     """Runs all analysis rules against a kingdom and collects the results."""
-    rules = [
-        analyze_village_density,
-        analyze_curse_pressure,
-        analyze_trashing_availability,
-        analyze_payload,
-        analyze_defense,
-        analyze_discard_attacks,
-        analyze_topdeck_attacks,
-        analyze_alt_vp,
-        analyze_gainers,
-        analyze_topdeck_combo,
-        analyze_doubler_combo,
-        analyze_engine_speed,
-        analyze_bigmoney_viability,
-        analyze_archetype_summary,
+    facts = compute_kingdom_facts(cards)
+
+    # Order matches the original rule list — most rules only need `cards`,
+    # but the four that share cross-cutting facts (village/terminal counts,
+    # engine_favored, cheap_village) take `facts` instead of re-deriving them.
+    results = [
+        analyze_village_density(facts),
+        analyze_curse_pressure(cards),
+        analyze_trashing_availability(cards),
+        analyze_payload(cards),
+        analyze_defense(cards),
+        analyze_discard_attacks(cards),
+        analyze_topdeck_attacks(cards),
+        analyze_alt_vp(cards),
+        analyze_gainers(cards),
+        analyze_topdeck_combo(cards),
+        analyze_doubler_combo(cards),
+        analyze_engine_speed(facts),
+        analyze_bigmoney_viability(cards, facts),
+        analyze_archetype_summary(cards, facts),
     ]
-    results = [rule(cards) for rule in rules]
     return [r for r in results if r is not None]
