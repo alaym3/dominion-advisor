@@ -180,7 +180,7 @@
   {
     "name": "Laboratory",
     "text": "+2 Cards. +1 Action.",
-    "tags": []
+    "tags": ["cantrip"]
   },
   {
     "name": "Library",
@@ -340,7 +340,9 @@
   {
     "name": "Sage",
     "text": "+1 Action. Reveal cards from the top of your deck until you reveal one costing $3 or more. Put that card into your hand and discard the rest.",
-    "tags": []
+    "tags": [
+      "cantrip"
+    ]
   },
   {
     "name": "Salvager",

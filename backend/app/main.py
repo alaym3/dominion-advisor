@@ -1,81 +1,49 @@
 import random
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException
 from typing import List
-import json
-from pathlib import Path
-from .models import Card, Cost, KingdomRequest, Observation
+from .card_store import CardStore, get_card_store
+from .models import Card, KingdomRequest
 from .analysis import analyze_kingdom
 
 app = FastAPI()
 
-
-## loading only card pool level 1-2 kingdom cards for now, since that's all we need for the advisor
-DATA_PATH = Path(__file__).parent.parent / "data" / "cards.json"
-
-with open(DATA_PATH) as f:
-    _raw_cards = json.load(f)
-
-ALL_CARDS: List[Card] = [Card(**c) for c in _raw_cards]
-
-LEVEL_1_2_KINGDOM_CARDS: List[Card] = [
-    c for c in ALL_CARDS if c.poolLevel <= 2 and c.isKingdomPile
-]
-
-LEVEL_1_KINGDOM_CARDS: List[Card] = [
-    c for c in ALL_CARDS if c.poolLevel == 1 and c.isKingdomPile
-]
-
-LEVEL_2_KINGDOM_CARDS: List[Card] = [
-    c for c in ALL_CARDS if c.poolLevel == 2 and c.isKingdomPile
-]
-
-CARDS_BY_NAME = {c.name: c for c in LEVEL_1_2_KINGDOM_CARDS}
 
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
 
 @app.get("/cards", response_model=List[Card])
-def get_cards():
-    return LEVEL_1_2_KINGDOM_CARDS
+def get_cards(store: CardStore = Depends(get_card_store)):
+    return store.kingdom_cards(1, 2)
 
 @app.get("/kingdom/random", response_model=List[Card])
-def get_random_kingdom():
-    return random.sample(LEVEL_1_2_KINGDOM_CARDS, 10)
+def get_random_kingdom(store: CardStore = Depends(get_card_store)):
+    return random.sample(store.kingdom_cards(1, 2), 10)
+
+def _sample_and_analyze(store: CardStore, min_level: int, max_level: int):
+    kingdom = random.sample(store.kingdom_cards(min_level, max_level), 10)
+    observations = analyze_kingdom(kingdom)
+    return {
+        "cards": kingdom,
+        "card_names": [c.name for c in kingdom],
+        "observations": observations,
+    }
 
 @app.get("/kingdom/random/analyzed")
-def get_random_kingdom_analyzed():
-    kingdom = random.sample(LEVEL_1_2_KINGDOM_CARDS, 10)
-    observations = analyze_kingdom(kingdom)
-    return {
-        "cards": kingdom,
-        "card_names": [c.name for c in kingdom],
-        "observations": observations,
-    }
+def get_random_kingdom_analyzed(store: CardStore = Depends(get_card_store)):
+    return _sample_and_analyze(store, 1, 2)
 
 @app.get("/kingdom/random/pool1/analyzed")
-def get_random_kingdom_analyzed():
-    kingdom = random.sample(LEVEL_1_KINGDOM_CARDS, 10)
-    observations = analyze_kingdom(kingdom)
-    return {
-        "cards": kingdom,
-        "card_names": [c.name for c in kingdom],
-        "observations": observations,
-    }
+def get_random_kingdom_pool1_analyzed(store: CardStore = Depends(get_card_store)):
+    return _sample_and_analyze(store, 1, 1)
 
 @app.get("/kingdom/random/pool2/analyzed")
-def get_random_kingdom_analyzed():
-    kingdom = random.sample(LEVEL_2_KINGDOM_CARDS, 10)
-    observations = analyze_kingdom(kingdom)
-    return {
-        "cards": kingdom,
-        "card_names": [c.name for c in kingdom],
-        "observations": observations,
-    }
+def get_random_kingdom_pool2_analyzed(store: CardStore = Depends(get_card_store)):
+    return _sample_and_analyze(store, 2, 2)
 
 
 @app.post("/kingdom/analyze")
-def analyze_specific_kingdom(request: KingdomRequest):
+def analyze_specific_kingdom(request: KingdomRequest, store: CardStore = Depends(get_card_store)):
     if len(request.card_names) != 10:
         raise HTTPException(
             status_code=400,
@@ -93,7 +61,7 @@ def analyze_specific_kingdom(request: KingdomRequest):
     unknown_names = []
 
     for name in request.card_names:
-        card = CARDS_BY_NAME.get(name)
+        card = store.get(name)
         if card is None:
             unknown_names.append(name)
         else:
