@@ -1,11 +1,20 @@
 import random
 from fastapi import Depends, FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 from .card_store import CardStore, get_card_store
 from .models import Card, KingdomRequest
 from .analysis import analyze_kingdom
 
 app = FastAPI()
+
+# Local dev only — the Vite frontend runs on a different origin (port 5173).
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/health")
